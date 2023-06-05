@@ -1,0 +1,270 @@
+body {
+    font-family: 'Plus Jakarta Sans';
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    width: 100%;
+    height: 12%;
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+
+
+}
+
+header img {
+    position: absolute;
+    width: 231px;
+    height: 44px;
+    margin-left: 55px;
+    margin-top: 18px;
+}
+
+
+header p {
+    position: absolute;
+    right: 0;
+    margin-right: 55px;
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.section1 {
+    margin-top: 10rem;
+    display: flex;
+justify-content: space-between;
+}
+
+.content {
+    padding: 50px 10px 10px 90px;
+}
+
+.content a{
+text-decoration: none;
+border: 1px solid#0d6efd ;
+border-radius: 50px;
+background-color: #0d6efd;
+padding: 10px 15px;
+color: white;
+font-size: 17px;
+font-weight: 700;
+
+}
+.content h2 {
+    padding-top: 15px;
+    font-size: 47px;
+    background: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+        }
+
+           
+.content p {
+    font-size: 27px;
+    padding-top: 5px;
+}
+
+    
+.form {
+    padding:1rem 2rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin-top: 70px;
+    margin-right: 100px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.form p {
+    font-size: 19px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.form input {
+    width: 19rem;
+    border: 1px solid gray;
+    padding: 10px 2px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.submit1 {
+    color: white;
+    background-color: rgba(0, 128, 0, 0.712);
+    font-size: 17px;
+}
+
+
+.section3 {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 17rem;
+    background-color: #318CE7;
+    height: 15rem;
+}
+
+.section3 h3 {
+text-align: center;
+font-size: 2rem;
+color: white;
+}
+.section3 p {
+text-align: center;
+color: white;
+}
+
+.s3 {
+    width:20%;
+    margin-top: 1rem;
+}
+
+
+.section4 {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+
+}
+.content4 {
+    margin-left: 6rem;
+}
+
+.img2 img {
+    height: 24rem;
+    width: 34rem;
+    margin-right: 9rem;
+    margin-top: 4rem;
+}
+
+.content4 span{
+  font-size: 3rem;
+color: #318CE7;
+
+}
+.content4 a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.content4 p {
+    font-size: 1.2rem;
+    margin-left: 3rem;
+}
+
+.content4 button {
+    margin-left: 3rem;
+    margin-top: 3rem;
+    padding: 0.7rem 5rem;
+    border: 1px solid green;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.715);
+}
+
+
+.section5 {
+    margin-top: 11rem;
+    
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+} 
+/* 2 box */
+.box1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+/* secions in those two box which 4 and we will add border in all of them */
+.duration {
+    display: flex;
+  border: 0px solid black;
+  justify-content:space-around;
+  margin: 0rem 0rem 0rem 9rem;
+  padding-top: 1.5rem;
+    padding-bottom: 2rem;
+  gap:9rem;
+  background-color: #A2C6F047;  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.durationimg {
+display: flex;
+gap:0.5rem;
+padding-right: 4rem;
+
+}
+
+.fee {
+    display: flex;
+    border: 0px solid black;
+    justify-content: space-between;
+    margin: 0rem 9rem 0rem 0rem;
+    gap:9rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-color: #B7E1A36B;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.feeimg {
+    display: flex;
+gap:0.5rem;
+padding-right: 4rem;
+}
+
+
+.b1 {
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 0rem 0rem 0rem 9rem;
+    background-color: #A2C6F0;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+.b2 {
+    display: flex;
+    gap:0.5rem;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 0rem 9rem 0rem 0rem;
+    background-color: #B7E1A3;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+
+.p1 {
+    padding-left: 17px ;
+    font-weight: 700;
+}
+.p2 {
+    padding-left:17px ;
+    margin-top: 9px;
+    margin-bottom: 9px;
+} 
+
+.img3 {
+    margin-top: 9px;
+}
+
+
+
+
+
+
+
+
